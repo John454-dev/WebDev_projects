@@ -1,0 +1,195 @@
+body{
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.head-box{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    box-shadow: 2px 2px 5px black, 5px 5px 20px white, -1px -1px 3px white, 2px 2px 5px black;
+    border-radius: 3px;
+    padding: 10px;
+}
+.head-box h1 span{
+    font-size: 40px;
+    color: rgb(243, 6, 105);
+    text-shadow: 1px 1px 10px rgb(221, 5, 245);
+}
+.timer{
+    position: absolute;
+    top: 150px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.text-box{
+    width: 800px;
+    height: 115px;
+    max-width: 90%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    color:black;
+    line-height: 50px;
+    font-size: 35px;
+    overflow: hidden;
+}
+#text .word{
+    display: inline-block;
+    margin: 5px 5px;
+}
+.some{
+    color: black;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+#tex{
+    width: 500px;
+    height: 40px;
+    margin: 10px;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: text;
+    align-items: center;
+    box-shadow: inset grey 2px 2px 5px;
+}
+button{
+    border: 0px solid black;
+    box-shadow: 2px 2px 4px black, 2px 2px 5px white;
+    position: relative;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(132, 252, 152);
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 3px;
+}
+button:hover{
+    box-shadow: 4px 4px 10px black, 3px 3px 7px white;
+    cursor: pointer;
+}
+.highlightbox{
+    padding: 0px 2px 0px 2px;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 5px;
+}
+.correct{
+    color: rgb(63, 172, 63);
+}
+.wrong{
+    color: red;
+}
+.highlightwrong{
+    background-color: red;
+}
+.highlightwrong span.correct{
+    color: black;
+    background-color: red
+}
+.highlightwrong span.wrong{
+        color: black;
+    background-color: red
+}
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: pink;
+    color: black;
+    border: 0px solid black;
+    border-radius: 5px 5px 100px 100px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 10px black, 4px 4px 20px white;
+}
+.text-boxx{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.texx{
+    width: 0px;
+    height: 0px;
+}
+.wpm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 0px solid black;
+    background-color: white;
+    color: green;
+    border-radius: 100px;
+    box-shadow: 2px 2px 10px black;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.scores h2{
+    color: black;
+}
+.scores h3{
+    color: red;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.time{
+    color: transparent;
+}
+.headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+    background-image: linear-gradient(aquamarine, pink);
+    color: black;
+    border-radius: 15px;
+    position: relative;
+    top: 60px;
+    border: 10px solid aquamarine;
+    box-shadow: 0px 10px 10px -10px black, inset 0px 0px 5px -5px black, inset -0px -0px 5px black;
+}
+.timer{
+    height: 50px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
