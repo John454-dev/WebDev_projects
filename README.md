@@ -1,3 +1,22 @@
-This is my first project using Html, Css, and JavaScript.
-The code in this project is simple and understandable. I used basics and coded this typing test project.
-This typingtest returns the number of correct words typed as WPM(words per minute) and also the wrong words.
+# ⌨️ Typing Test Web App
+
+This is a simple and interactive **Typing Speed Test** web application that measures how fast you can type in **Words Per Minute (WPM)**. It provides real-time feedback and calculates your WPM based on your typing performance.
+
+## 🚀 Features
+
+- 🕒 Real-time typing speed calculation (WPM)
+- 📄 Random text prompt for each test
+- ⌛ Timer-based test (optional)
+- 🔄 Restart and try again as many times as you like
+- 🎯 Clean and responsive UI
+
+## 🛠️ Built With
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+
+
+
+
